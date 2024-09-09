@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Qualification Section</title>
+
+
+ <link id="stylesheet" rel="stylesheet" href="style1.css">
+
+ <!-- JavaScript -->
+ <script>
+     function toggleStyle() {
+         var stylesheet = document.getElementById('stylesheet');
+         if (stylesheet.getAttribute('href') === 'style1.css') {
+             stylesheet.setAttribute('href', 'style2.css');
+         } else {
+             stylesheet.setAttribute('href', 'style1.css');
+         }
+     }
+ </script>
+
+
+</head>
+<body>
+
+    <button class="toggle-button" onclick="toggleStyle()">Toggle Style</button>
+    <div class="container">
+        <header>
+            <h1>Qualification Section</h1>
+            <img src="selfie.jpg" alt="Profile Picture" class="profile-pic">
+        </header>
+        <div class="links">
+            <a href="index.html">Landing Page </a>
+            <a href="service_section.html">Service Section</a>
+            <a href="technical_portfolio.html">Technical Portfolio</a>
+        </div>
+        <div class="profile">
+            <div class="info">
+
+                <h2>Resume</h2>
+                <p>View or download my resume <a href="Yu's Resume.pdf" target="_blank">at here</a>.</p>
+                <h2>Academic Qualifications</h2>
+                <ul>
+                    <li>Incoming Bachelor's Degree in Computer Engineering and Computer Science (CECS)</li>
+                    <li>Technical area in Computer Graphics</li>
+                    <li>Relevant Coursework: Data Structures, Linear algebra, Physics, and Graphics Design</li>
+                </ul>
+                <h2>Why I choose this area</h2>
+                <p2>
+                    My father was once a professor of computer science. During the early days when single-player
+                    RPG games were popular in China, he often bought game discs to play at home. The bizarre and colorful
+                    visuals, along with the tragic yet enduring storylines, fascinated me deeply.
+                    As I grew older, I wanted to promote games as a form of the ninth art, especially today,
+                    with the rapid development of AR, VR and AI. The breakthroughs in GPU performance
+                    also have made an even more immersive experience possible
+                </p2>
+
+</body>
+</html>

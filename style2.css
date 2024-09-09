@@ -1,0 +1,81 @@
+﻿
+body {
+    background-image: url('backgroundImage2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 50px;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Ensure image is properly styled with fixed size */
+header img.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    margin: 0 auto 10px auto;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffcc00;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.links {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+    .links a {
+        color: #ffcc00;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+.contact {
+    font-size: 16px;
+    color: #ffcc00;
+    text-align: center;
+    margin-top: 20px;
+}
+}

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Introduction</title>
+
+
+    <link id="stylesheet" rel="stylesheet" href="style1.css">
+
+    <!-- JavaScript -->
+    <script>
+        function toggleStyle() {
+            var stylesheet = document.getElementById('stylesheet');
+            if (stylesheet.getAttribute('href') === 'style1.css') {
+                stylesheet.setAttribute('href', 'style2.css');
+            } else {
+                stylesheet.setAttribute('href', 'style1.css');
+            }
+        }
+    </script>
+</head>
+<body>
+
+  
+    <button class="toggle-button" onclick="toggleStyle()">Toggle Style</button>
+
+
+    <div class="container">
+
+   
+        <header>
+            <h1>Yu Zhong</h1>
+            <img src="selfie.jpg" alt="Profile Picture" class="profile-pic">
+        </header>
+       
+        <div class="links">
+            <a href="service_section.html">Service Section</a>
+            <a href="technical_portofolio.html">Technical Portfolio</a>
+            <a href="Qualification_section.html">Qualification Section</a>
+            <a href="Landing area by AI.html">AI Generated Landing Area</a>
+            <a href="Landing area without CSS.html">Landing Area Without CSS</a>
+        </div>
+
+
+        <div class="profile">
+            
+
+            <div class="info">
+                <p>
+                    Hi, I am Yu. I am a senior student majoring in CECS (Computer Engineering and Computer Science track).
+                    I was born and raised in Guangzhou, China, and after taking the college entrance exam in my hometown,
+                    I discussed with my parents and they agreed to send me to the United States -- the most powerful country
+                    in the world -- for college, because I wanted to broaden my horizons and gain international work & study
+                    experience. I have several hobbies like traveling, writing novels and poems, and playing the piano, etc.
+                    Among those things that I fond of, I would like to mention that I really enjoy having conversations with
+                    people from different cultural backgrounds and upbringings because I believe I can always learn something
+                    from them. During the years I have spent in the U.S., my English level and my Spanish proficiency has
+                    significantly improved thanks to all the good friends I have made. Also, I have a relatively sentimental
+                    personality which led to my obsession in appreciating literature, art, classical music and architecture
+                    in my early age, but later on I discovered that there exist a vivid form of art that can combine all of them
+                    associatively -- a well made game. This posed a strong influence on me in a way that I made my decision to choose
+                    computer graphics track in my senior year. In my leisure time, I also play video games and note down
+                    the impressive gameplay I experience, so that I can learn from the classic or creative plots and
+                    aesthetic designs. I enjoy learning animation using game engines like UE5 as well.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="contact">
+            <p>Contact info: zhongyu98@tamu.edu, +832-855-5587</p>
+        </div>
+    </div>
+
+</body>
+</html>
