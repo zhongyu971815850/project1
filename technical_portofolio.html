@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Qualification Section</title>
+    <title>Technical Portofolio</title>
 
+    <link id="stylesheet" rel="stylesheet" href="style1.css">
+    <!-- JavaScript -->
+    <script>
+        function toggleStyle() {
+            var stylesheet = document.getElementById('stylesheet');
+            if (stylesheet.getAttribute('href') === 'style1.css') {
+                stylesheet.setAttribute('href', 'style2.css');
+            } else {
+                stylesheet.setAttribute('href', 'style1.css');
+            }
+        }
+    </script>
 
 </head>
 <button class="toggle-button" onclick="toggleStyle()">Toggle Style</button>
